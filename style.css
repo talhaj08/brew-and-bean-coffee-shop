@@ -1,0 +1,69 @@
+
+/* General Page Styling */
+body {
+    background-color: #f5eee6;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 30px;
+}
+
+/* Main Heading */
+h1 {
+    color: #5c3317;
+    font-size: 36px;
+}
+
+/* Paragraph */
+p {
+    color: #654321;
+    font-size: 18px;
+}
+
+/* Coffee Shop Image */
+img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 0;
+}
+
+/* Menu Heading */
+h2 {
+    color: #5c3317;
+}
+
+/* Menu Table */
+table {
+    margin: auto;
+    width: 50%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th {
+    background-color: #6f4e37;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    color: #4b3621;
+}
+
+/* Order Button */
+button {
+    background-color: #6f4e37;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e2723;
+}
+
+
