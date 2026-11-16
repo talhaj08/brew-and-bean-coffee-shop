@@ -1,12 +1,17 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Brew & Bean Coffee Shop</title>
+    <meta charset="UTF-8">
+    <title>Brew & Bean Coffee Shop - Home</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+
+    <nav class="navbar">
+        <a href="index.html" class="active">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
 
     <h1>Brew & Bean Coffee Shop</h1>
 
@@ -21,46 +26,42 @@
     <h2>Our Menu</h2>
 
     <table border="1">
-
         <tr>
             <th>Item Name</th>
             <th>Price</th>
         </tr>
-
-        <tr>
+        <tr onclick="selectMenuItem('Espresso', 'Rs. 250')" style="cursor: pointer;">
             <td>Espresso</td>
             <td>Rs. 250</td>
         </tr>
-
-        <tr>
+        <tr onclick="selectMenuItem('Cappuccino', 'Rs. 350')" style="cursor: pointer;">
             <td>Cappuccino</td>
             <td>Rs. 350</td>
         </tr>
-
-        <tr>
+        <tr onclick="selectMenuItem('Cold Coffee', 'Rs. 400')" style="cursor: pointer;">
             <td>Cold Coffee</td>
             <td>Rs. 400</td>
         </tr>
-
-        <tr>
+        <tr onclick="selectMenuItem('Chocolate Muffin', 'Rs. 200')" style="cursor: pointer;">
             <td>Chocolate Muffin</td>
             <td>Rs. 200</td>
         </tr>
-
-        <tr>
+        <tr onclick="selectMenuItem('Chocolate Brownie', 'Rs. 250')" style="cursor: pointer;">
             <td>Chocolate Brownie</td>
             <td>Rs. 250</td>
         </tr>
-
     </table>
 
     <br>
 
-    <button onclick="alert('Welcome to Brew & Bean Coffee Shop!')">
+    <button type="button" onclick="placeOrder()">
         Order Now
     </button>
 
-    <p>Thank you for visiting Brew & Bean!</p>
+    <footer>
+        <p>Thank you for visiting Brew & Bean! | Open Daily: 8:00 AM – 10:00 PM</p>
+    </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
