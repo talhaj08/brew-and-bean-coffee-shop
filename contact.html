@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Brew & Bean Coffee Shop - Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html" class="active">Contact</a>
+    </nav>
+
+    <h1>Contact & Pre-Order</h1>
+    <p>Visit us in store or send us a message to pre-order your favorite coffee!</p>
+
+    <div class="contact-box">
+        <h2>Shop Details</h2>
+        <p><strong>Address:</strong> Street 12, F-7 Markaz, Islamabad</p>
+        <p><strong>Hours:</strong> Daily, 8:00 AM – 10:00 PM</p>
+        <p><strong>Phone:</strong> +92 300 1234567</p>
+
+        <hr>
+
+        <h2>Send an Order or Inquiry</h2>
+        <form id="contact-form" onsubmit="submitContactForm(event)">
+            <label for="customer-name"><strong>Your Name:</strong></label><br>
+            <input type="text" id="customer-name" required placeholder="Enter your name"><br>
+
+            <label for="favorite-drink"><strong>Order or Message:</strong></label><br>
+            <input type="text" id="favorite-drink" required placeholder="e.g., 2 Cappuccinos & 1 Muffin"><br>
+
+            <button type="submit">Submit Request</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>Thank you for visiting Brew & Bean! | Open Daily: 8:00 AM – 10:00 PM</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
